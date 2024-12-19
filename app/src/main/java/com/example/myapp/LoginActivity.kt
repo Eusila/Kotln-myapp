@@ -20,7 +20,6 @@ class LoginActivity {
             val email:  EditText= findViewById(R.id.editTextTextEmailAddress)
             val phone: EditText= findViewById(R.id.editTextPhone)
             val password: EditText = findViewById(R.id.editTextTextPassword)
-
             val loginButton: Button = findViewById(R.id.button)
 
 
@@ -37,7 +36,7 @@ class LoginActivity {
                 }else if (passwordText.isBlank()) {
                     password.error = "Password is required"
                 }else if (phoneText.isBlank()) {
-                    phone.error = "Password is required"
+                    phone.error = "Phone mumber is required"
                 }else {
 
                     val intent = Intent(this, ProfileActivity::class.java)
