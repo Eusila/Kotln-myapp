@@ -15,7 +15,7 @@
             android:fontFamily="@font/abril_fatface"
             android:text="CHFLY TRAVELS"
             android:textAlignment="center"
-            android:textSize="40sp"
+            android:textSize="35sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/editTextText"
             app:layout_constraintEnd_toEndOf="parent"
